@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    
+    <link rel="stylesheet" href="phone.css" media="(max-width: 710px) and (max-height: 620px)">
+    <script src="script.js"></script>
+    <script>src="index.js"</script>
+    <title>Event Management Portal</title>
+</head>
+<body>
+
+        <nav class="navbar">
+
+        <h1>Event Management portal</h1>
+         <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#event-list">Event List</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button id="register-btn">Register</button>
+            </ul>
+          
+        </nav>
+
+       <br><br>
+       <section class="home" id="home">
+       <div class="home-text">
+        <h2>Welcome to the Event Management Portal</h2>
+        <p>Your one-stop solution for managing and organizing events seamlessly.</p>
+       </div>
+        
+        <div class="home-image">
+    
+        <p> <img src="https://media.istockphoto.com/id/2193065392/photo/young-business-professionals-collaborating-in-a-modern-meeting-room.jpg?s=1024x1024&w=is&k=20&c=kEERak83iER3k1MUxHZyJKC_Vrdl7YSjh6Y80KWupbg="/></p>
+         
+       </div>
+       
+
+       </section><br><br>
+
+       <section class="event-list" id="event-list">
+        
+       <br><br><br><br><br><br>
+         <div class="events" id="event">
+            <div class="tech">
+                <h1>Tech Conference 2025</h1>
+                <p><img src="https://tse3.mm.bing.net/th/id/OIP.V7-uhXHuFhZJELE-_IXqKwHaD-?pid=Api&P=0&h=180"/></p>
+               
+            </div>
+
+            <div class="cultural">
+                <h1>Cultural Fest 2025</h1>
+                <p><img src="https://tse2.mm.bing.net/th/id/OIP.qvTkzIitM1hAFQbE8pZfJgHaB8?pid=Api&P=0&h=180" alt="Cultural Fest 2025"/></p>
+                </div>
+
+               <div class="sports">
+                <h1>Sports Meet 2025</h1>
+                <p><img src="https://media.istockphoto.com/id/1791303361/photo/high-angle-establishing-wide-shot-of-a-whole-arena-of-spectators-watching-a-basketball.jpg?s=612x612&w=0&k=20&c=HNth5VuPyGddms8HhAnJajlLdTOKDY80odxCg1rSn2k="/></p>
+              
+            </div>
+        </div>
+       </section><br><br>
+       
+       <section class="about" id="about">
+          <br><br><div> <h2 align="center">About Us</h2>
+            <div class="about1"></div><h3>Vaishnavi institute of technology & science bhopal</h3>
+            <h4>Event List</h4>
+            <ul>
+                <li>Technical events</li>
+                <li>Cultural events</li>
+                <li>Sports events</li>
+            </ul>
+        </div>
+       
+    </section><br>
+
+    
+    <section class="contact" id="contact">
+         <br><br><br><br><h2 align="center">Contact Us</h2>
+        
+         <form action="/submit" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="event">Event</label>
+            <input type="radio" name="event" value="technical" required>Technical
+            <input type="radio" name="event" value="cultural" required>Cultural
+            <input type="radio" name="event" value="sports" required>Sports<br>
+           <br> <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+         <div class="contact-info">
+            <h1>Contact Info</h1>
+<div class="contact-info">
+    <h2>Kritika Vishwakarma</h2>
+  <p>Email: <a href="mailto:kritikad10203@gmail.com">kritikad10203@gmail.com</a></p>
+  <p>Phone: <a href="tel:+919098747717">+91-9098747717</a></p>
+  <p>LinkedIn: 
+    <a href="https://www.linkedin.com/in/kritika-vishwakarma-249826278/" target="www.linkedin.com/in/
+kritika-vishwakarma-249826278 Vanity URL name: Kritika Vishwakarma">
+      Kritika Vishwakarma</a>
+  </p>
+  <p>Address: Vaishnavi Institute of Technology & Science, Bhopal</p>
+</div>
+
+         </div>
+    </section><br><br>
+<hr>
+
+ 
+
+
+<section class="footer" id="footer">
+    <footer>
+    
+  <p> &copy; 2025 vaishnavi institute of technology and science bhopal. All rights reserved.</p>
+  <p>Contact us: kritikad10203@gmail.com | +91-9098747717</p>
+  <p>Designed by Kritika </p>
+    </footer>
+</section>
+        
+
+
+
+</body>
+</html>
